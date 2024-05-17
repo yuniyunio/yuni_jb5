@@ -1,7 +1,7 @@
 @extends('layouts.app')
  
 @section('body')
-    <h1 class="mb-0">Add Rekap Merchandise</h1>
+    <h1 class="mb-0">Add Rekap Gadget</h1>
     <hr />
     <form action="{{ route('product.store') }}" method="POST">
         @csrf
@@ -11,18 +11,18 @@
                 <input type="date" name="tanggal" class="form-control">
             </div>
             <div class="col">
-                <label for="form-control">Nama Barang</label>
-                <input type="text" name="nama_barang" class="form-control" placeholder="ex: NCT CheWing Gum">
+                <label for="form-control">Nama Gadget</label>
+                <input type="text" name="nama_barang" class="form-control" placeholder="">
             </div>
         </div>
         <div class="row mb-3 gap-4">
           
             <div class="col">
-                <label for="form-control">Jumlah Barang</label>
-                <input type="number" name="jumlah_barang" class="form-control" placeholder="ex: 4">
+                <label for="form-control">Jumlah Gadget</label>
+                <input type="number" name="jumlah_barang" class="form-control" placeholder="">
             </div>
             <div class="col">
-                <label for="form-control">Harga Barang</label>
+                <label for="form-control">Harga Gadget</label>
                 <input type="text" name="harga_barang" class="form-control" >
             </div>
         </div>

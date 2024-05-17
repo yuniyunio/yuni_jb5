@@ -29,17 +29,17 @@
     {{-- /navbar --}}
 
     
-    <h1 style="color: white;">Web Perekap Merchandise K-Pop Toko Kujira</h1> <br> <br>
+    <h1 style="color: black;">Web Toko Gadget</h1> <br> <br>
     
-    <h2 style="color: white;">Product yang telah di rekap</h2>
+    <h2 style="color: black;">Gadget yang telah di rekap</h2>
     <table class="table table-hover">
         <thead class="table-primary">
-            <tr style="color:cadetblue;">
+            <tr style="color:blue;">
                 <th>#</th>
                 <th>Tanggal</th>
-                <th>Nama Barang</th>
-                <th>Jumlah Barang</th>
-                <th>Harga Barang</th>
+                <th>Nama Gadget</th>
+                <th>Jumlah Gadget</th>
+                <th>Harga Gadget</th>
             </tr>
         </thead>
         <tbody style="color: white;">
@@ -48,8 +48,8 @@
                     <tr>
                         <td class="align-middle">{{ $loop->iteration }}</td>
                         <td class="align-middle">{{ $rs->tanggal }}</td>
-                        <td class="align-middle">{{ $rs->nama_barang }}</td>
-                        <td class="align-middle">{{ $rs->jumlah_barang }}</td>
+                        <td class="align-middle">{{ $rs->nama_barang}}</td>
+                        <td class="align-middle">{{ $rs->jumlah_barang}}</td>
                         <td class="align-middle">{{ $rs->harga_barang }}</td>
                     </tr>
                 @endforeach

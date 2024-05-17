@@ -2,7 +2,7 @@
  
 @section('body')
     <div class="d-flex align-items-center justify-content-between">
-        <h1 class="mb-0">Rekap Merchandise</h1>
+        <h1 class="mb-0">Rekap Gadget</h1>
         <a href="{{ route('product.create') }}" class="btn btn-success">Add Product</a>
     </div>
     <hr />
@@ -16,9 +16,9 @@
             <tr>
                 <th>#</th>
                 <th>Tanggal</th>
-                <th>Nama Barang</th>
-                <th>Jumlah Barang</th>
-                <th>Harga Barang</th>
+                <th>Nama Gadget</th>
+                <th>Jumlah Gadget</th>
+                <th>Harga Gadget</th>
                 <th>Aksi</th>
             </tr>
         </thead>
